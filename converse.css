@@ -5,6 +5,7 @@ body {
 }
 
 article h2 {
+  text-transform: uppercase;
   background-color: #eee;
   text-align: center;
 }
