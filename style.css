@@ -36,6 +36,11 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 #author {
@@ -58,6 +63,7 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
 }
 
 aside {
