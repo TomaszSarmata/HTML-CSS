@@ -1,0 +1,43 @@
+body {
+  border: solid 4px black;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+article h2 {
+  background-color: #eee;
+  text-align: center;
+}
+
+article strong {
+  font-size: 20px;
+}
+
+article p:nth-child(4) {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 12px;
+}
+
+article a:link {
+  color: #000;
+}
+
+article a:visited {
+  color: #000;
+}
+
+article a:hover {
+  color: red;
+}
+
+article a:active {
+  color: orangered;
+}
+
+button {
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
