@@ -71,6 +71,27 @@ aside {
   border-bottom: 5px solid #1098ad;
 }
 
+/* styling links below LVHA */
+a:link {
+  color: #1898ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1898ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
 /* article p:first-of-type {
   color: red;
 } */
