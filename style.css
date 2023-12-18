@@ -12,6 +12,7 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-header {
@@ -144,6 +145,17 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0;
+}
+
+.like {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 99;
 }
 
 /* article p:first-of-type {
