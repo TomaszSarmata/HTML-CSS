@@ -12,7 +12,7 @@ body {
 .product {
   border: solid 4px black;
   width: 70%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 /* Product */
@@ -22,13 +22,12 @@ body {
   text-align: center;
   font-size: 22px;
   margin: 0;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 /* Product Information */
 .price {
   font-size: 24px;
-  margin: 0;
 }
 
 .shipping {
@@ -36,7 +35,7 @@ body {
   color: #777;
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .more-info:link,
 .more-info:visited {
@@ -56,14 +55,16 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .details-list {
   list-style-type: square;
-  margin-right: 0;
-  padding-left: 20px;
-  line-height: 2.2;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.details-list li {
   margin-bottom: 10px;
 }
 
