@@ -6,6 +6,8 @@ body {
 
 .product {
   border: solid 4px black;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Product */
@@ -14,11 +16,14 @@ body {
   background-color: #f7f7f7;
   text-align: center;
   font-size: 22px;
+  margin: 0;
+  padding: 10px 0;
 }
 
 /* Product Information */
 .price {
   font-size: 24px;
+  margin: 0;
 }
 
 .shipping {
@@ -26,6 +31,7 @@ body {
   color: #777;
   font-size: 12px;
   font-weight: bold;
+  margin: 0;
 }
 .more-info:link,
 .more-info:visited {
@@ -46,6 +52,9 @@ body {
 
 .details-list {
   list-style-type: square;
+  margin-right: 0;
+  padding-left: 20px;
+  line-height: 2;
 }
 
 /* Button */
@@ -56,6 +65,8 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
+  width: 100%;
+  padding: 15px 0;
 }
 
 .add-cart:hover {
