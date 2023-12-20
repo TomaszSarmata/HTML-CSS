@@ -10,7 +10,7 @@ body {
   font-family: sans-serif;
 }
 .container {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
   position: relative;
 }
@@ -23,7 +23,7 @@ body {
 
 nav {
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 article {
@@ -134,7 +134,7 @@ a:active {
 }
 
 .post-img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -189,14 +189,23 @@ h2::after {
   color: red;
 } */
 
-/* li:first-child {
-  font-weight: bold;
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
 }
 
-li:last-child {
-  font-style: italic;
+.author {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  float: left;
 }
 
-li:nth-child(2) {
-  color: red;
-} */
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
