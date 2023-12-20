@@ -13,6 +13,7 @@ body {
   border: solid 4px black;
   width: 70%;
   margin: 50px auto;
+  position: relative;
 }
 
 /* Product */
@@ -85,4 +86,48 @@ body {
   background: #fff;
   color: #000;
   cursor: pointer;
+}
+
+.product::before {
+  content: "Sale";
+  background-color: orangered;
+  padding: 5px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  position: absolute;
+  left: -25px;
+  top: -15px;
+}
+
+.squares-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+}
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.orangered {
+  background-color: orangered;
+}
+.yellow {
+  background-color: yellow;
+}
+.limegreen {
+  background-color: limegreen;
+}
+.brown {
+  background-color: brown;
 }
