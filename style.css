@@ -158,6 +158,15 @@ nav a:link:last-child {
   z-index: 99;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+p::first-line {
+  color: red;
+}
+
 /* article p:first-of-type {
   color: red;
 } */
