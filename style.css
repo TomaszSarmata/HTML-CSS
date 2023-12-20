@@ -163,7 +163,7 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-p::first-line {
+h3 + p::first-line {
   color: red;
 }
 
