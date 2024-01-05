@@ -151,7 +151,7 @@ nav a:link:last-child {
 .like {
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: 35px;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 22px;
@@ -221,17 +221,14 @@ nav {
 }
 
 article {
-  background-color: green;
-  width: 900px;
+  width: 825px;
   float: left;
 }
 aside {
-  background-color: red;
   width: 300px;
   float: right;
 }
 
 footer {
-  background-color: yellow;
   clear: both;
 }
