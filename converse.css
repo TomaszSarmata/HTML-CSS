@@ -4,6 +4,7 @@
 }
 
 body {
+  width: 1200px;
   font-family: sans-serif;
   line-height: 1.4;
   font-size: 14px;
@@ -14,6 +15,25 @@ body {
   width: 70%;
   margin: 50px auto;
   position: relative;
+}
+
+img {
+  float: left;
+  width: 30%;
+}
+
+.centre-container {
+  width: 25%;
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.right-container {
+  float: right;
+  width: 25%;
+  margin-right: 40px;
+  margin-top: 30px;
 }
 
 /* Product */
@@ -29,6 +49,7 @@ body {
 /* Product Information */
 .price {
   font-size: 24px;
+  display: inline-block;
 }
 
 .shipping {
@@ -37,6 +58,8 @@ body {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 20px;
+  display: inline-block;
+  margin-left: 40px;
 }
 .more-info:link,
 .more-info:visited {
