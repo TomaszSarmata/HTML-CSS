@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -59,7 +60,7 @@ img {
   font-weight: bold;
   margin-bottom: 20px;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .more-info:link,
 .more-info:visited {
