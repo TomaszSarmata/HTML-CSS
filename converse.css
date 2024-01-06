@@ -13,28 +13,27 @@ body {
 
 .product {
   border: solid 4px black;
-  width: 70%;
+  width: 825px;
   margin: 50px auto;
   position: relative;
 }
 
-.img-container {
+.product-img {
   float: left;
-  width: 240px;
-  margin-bottom: -6px;
+  margin-right: 40px;
 }
 
-.centre-container {
-  width: 240px;
+.product-info {
+  width: 243px;
   float: left;
-  margin-left: 40px;
+  margin-right: 40px;
   margin-top: 30px;
 }
 
-.right-container {
+.product-details {
   float: left;
-  width: 25%;
-  margin-left: 40px;
+  width: 243px;
+
   margin-top: 30px;
 }
 
