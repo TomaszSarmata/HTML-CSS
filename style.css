@@ -18,7 +18,7 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
-  padding: 20px 40px 40px 20px;
+  padding: 20px 40px;
   margin-bottom: 60px;
 }
 
@@ -142,7 +142,6 @@ a:active {
 
 nav a:link {
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -234,3 +233,22 @@ aside {
 footer {
   clear: both;
 } */
+
+/* Flexbox */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
