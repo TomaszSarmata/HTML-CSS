@@ -192,7 +192,7 @@ h2::after {
 } */
 
 /* FLOATS */
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -216,7 +216,7 @@ nav {
   clear: both;
 } */
 
-.clearfix::after {
+/* .clearfix::after {
   clear: both;
   content: "";
   display: inline-block;
@@ -233,4 +233,4 @@ aside {
 
 footer {
   clear: both;
-}
+} */
