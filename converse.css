@@ -164,12 +164,13 @@ body {
 
 .main-flex-container {
   display: flex;
-  justify-content: space-between;
+
+  gap: 25px;
 }
 .product-info {
-  width: 30%;
+  flex: 1;
 }
 
 .product-details {
-  width: 30%;
+  flex: 1;
 }
