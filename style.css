@@ -310,7 +310,6 @@ article {
 
 aside {
   grid-column: 2/-1;
-
   align-self: self-start;
 }
 
